@@ -20,9 +20,9 @@ class Config:
     # Configuración de Calidad por Defecto
     DEFAULT_QUALITY = {
         "resolution": os.getenv("DEFAULT_RESOLUTION", "640x480"),
-        "crf": os.getenv("DEFAULT_CRF", "18"),
+        "crf": os.getenv("DEFAULT_CRF", "32"),
         "audio_bitrate": os.getenv("DEFAULT_AUDIO_BITRATE", "60k"),
-        "fps": os.getenv("DEFAULT_FPS", "32"),
+        "fps": os.getenv("DEFAULT_FPS", "18"),
         "preset": os.getenv("DEFAULT_PRESET", "veryfast"),
         "codec": os.getenv("DEFAULT_CODEC", "libx265")
     }
