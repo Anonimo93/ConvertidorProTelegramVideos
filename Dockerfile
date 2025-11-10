@@ -21,4 +21,4 @@ RUN mkdir -p temp_files
 EXPOSE 8080
 
 # Ejecutar el bot
-CMD ["python", "main.py"]
+CMD ["python", "main.py", "sh start.sh"]
