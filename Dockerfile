@@ -18,7 +18,7 @@ COPY . .
 RUN mkdir -p temp_files
 
 # Exponer puerto (para health checks)
-EXPOSE 8080
+EXPOSE 8000
 
 # Ejecutar el bot
 CMD ["python", "main.py", "sh start.sh"]
